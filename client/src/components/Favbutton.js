@@ -12,7 +12,7 @@ const FavButton = ({ vidId }) => {
     };
 
     try {
-      const response = await fetch('https://node-react-app-t0m3.onrender.com/favourites', {
+      const response = await fetch('https://pmusic.onrender.com/favourites', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

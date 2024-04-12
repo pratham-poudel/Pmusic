@@ -22,7 +22,7 @@ const SignupPage = () => {
       };
     
       try {
-        const response = await fetch('https://node-react-app-t0m3.onrender.com/register', {
+        const response = await fetch('https://pmusic.onrender.com/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

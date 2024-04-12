@@ -23,7 +23,7 @@ const ResultPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://node-react-app-t0m3.onrender.com/getuser'); // Assuming your backend endpoint is '/api/profile'
+                const response = await fetch('https://pmusic.onrender.com/getuser'); // Assuming your backend endpoint is '/api/profile'
                 if (response.ok) {
                     const data = await response.json();
                     setUserData(data);  // Assuming your backend returns user data

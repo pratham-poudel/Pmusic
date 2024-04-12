@@ -31,7 +31,7 @@ const Button = ({ vidId, title, currentVideoId, setCurrentVideoId }) => {
     };
   
     try {
-      const response = await fetch('https://node-react-app-t0m3.onrender.com/recentlyplayed', {
+      const response = await fetch('https://pmusic.onrender.com/recentlyplayed', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

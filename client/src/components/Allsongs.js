@@ -9,7 +9,7 @@ const SongList = () => {
         // Fetch songs from the backend
         const fetchSongs = async () => {
             try {
-                const response = await axios.get('/viewsongs');
+                const response = await axios.get('https://pmusic.onrender.com/viewsongs');
                 setSongs(response.data);
             } catch (error) {
                 console.error('Error fetching songs:', error);

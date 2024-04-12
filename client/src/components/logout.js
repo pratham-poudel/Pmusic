@@ -6,7 +6,7 @@ const LogoutButton = () => {
 
   const handleLogout = async () => {
     try {
-      const response = await fetch('https://node-react-app-t0m3.onrender.com/logout', {
+      const response = await fetch('https://pmusic.onrender.com/logout', {
         method: 'GET', // Or 'GET' depending on your server implementation
         headers: {
           'Content-Type': 'application/json'

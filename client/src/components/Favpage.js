@@ -63,7 +63,7 @@ export function Favpage() {
 
     const fetchResults = async () => {
         try {
-            const response = await fetch('https://node-react-app-t0m3.onrender.com/favourites'); // Assuming your backend endpoint is '/api/profile'
+            const response = await fetch('https://pmusic.onrender.com/favourites'); // Assuming your backend endpoint is '/api/profile'
             if (response.ok) {
                 const data = await response.json();
                 setVidid(data);
