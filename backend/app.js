@@ -17,7 +17,7 @@ app.use(expressSession({
     secret:"hellohellobyebyesa"
   }));
   app.use(cors({
-    origin: 'https://client-hqgup6vfq-pratham-poudels-projects.vercel.app'
+    origin: '*'
   }));
   app.use(passport.initialize());
   app.use(passport.session());

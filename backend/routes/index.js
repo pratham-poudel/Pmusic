@@ -267,7 +267,7 @@ router.get('/playsong/:fileName', async function (req, res) {
 router.get('/getuser', isLoggedIn, async function (req, res) {
   const user = await userModel.findOne({ username: req.session.passport.user });
   console.log(user)
-  res.status(200).send(user);
+  res.status(200).send(user); 
 });
 
 router.post('/recentlyplayed', isLoggedIn, async function (req, res) {

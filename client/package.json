@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "https://node-react-app-t0m3.onrender.com",
+  "proxy": "https://pmusic.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
