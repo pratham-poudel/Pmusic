@@ -1,0 +1,23 @@
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #e20f0f;
+  cursor: pointer;
+}
+
+.actual-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #007bff;
+}
+
+.transparent-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: transparent;
+}
